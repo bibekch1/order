@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --orange:#fe8328;
+    --gray:#333333;
+    --white:#ffffff;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+
+}
+
+
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+
+}
+
+.btn{
+    
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: var(--white);
+    background: var(--gray);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{
+    background: var(--orange);
+    letter-spacing: .1rem;
+
+}
+body {
+    background-image: url(../image/login-bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+.main{
+    background: rgba(0,0,0,.5);
+    
+
+}
+ .login-form{
+     
+     width: 35rem;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     position: absolute;
+     color: #fff;
+ }
+ .login-form h1{
+     color: var(--orange);
+     font-size: 4rem;
+     text-align: center;
+     text-transform: uppercase;
+     margin: 4rem 0;
+ }
+ .login-form p{
+     font-size: 2rem;
+     margin: 1.5rem 0;
+     color: var(--gray);
+ }
+
+ .login-form input{
+     font-size: 1.6rem;
+     width: 100%;
+     padding: 1.5rem 1rem;
+     border: 0;
+     outline: none;
+     border-radius: .5rem;
+ }
+
+ .success{
+    color:#4cd137 ;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.error{
+    color:#e84118 ;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+
+@media (max-width:766px){
+  
+}
+
+@media (max-width:450px){
+
+}
